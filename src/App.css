@@ -1,38 +1,43 @@
 .App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+  background-repeat: round;
+}
+.inputDiv {
+  padding-top: 40vh;
+  width: 50%;
+  box-sizing: border-box;
+}
+.inputDiv input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
   text-align: center;
+  font-size: x-large;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.submitDiv {
+  padding-top: 30px;
+  width: 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submitDiv input {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: darkcyan;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.submitDiv input:hover {
+  background-color: rgb(163, 162, 77);
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tempDiv {
+  padding-top: 30px;
+  font-size: x-large;
 }
